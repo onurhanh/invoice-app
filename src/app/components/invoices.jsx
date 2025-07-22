@@ -32,7 +32,7 @@ export default function Invoices() {
                             <StatusFilter />
                         </div>
                         <div className='p-[24px]'>
-                            <Dialog className='overflow-y-auto'>
+                            <Dialog>
                                 <DialogTrigger asChild>
                                     <button className="flex items-center gap-2 bg-[#7B5CFF] text-white font-bold pl-2 pr-4 py-2 rounded-full shadow hover:bg-[#6A4DE0] transition">
                                         <span className="bg-white text-[#7B5CFF] rounded-full w-8 h-8 flex justify-center text-lg font-bold">
@@ -42,7 +42,7 @@ export default function Invoices() {
                                     </button>
                                 </DialogTrigger>
 
-                                <DialogContent className='overflow-y-auto'>
+                                <DialogContent className='overflow-y-auto max-h-[80vh]'>
                                     <form>
                                         <div className=''>
                                             <Label htmlFor="street" className='pb-[9px]'>Street Adress</Label>
