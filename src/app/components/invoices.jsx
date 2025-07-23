@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dialog";
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
-import DatePicker from './datePicker';
+import DatePicker from './datepicker';
 
 export default function Invoices() {
     return (
